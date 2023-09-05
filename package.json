@@ -1,0 +1,29 @@
+{
+  "name": "keenetic",
+  "version": "0.0.1",
+  "description": "Package for connecting to a Keenetic router",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "babel src --out-dir build",
+    "dev": "nodemon example/index.js --exec babel-node"
+  },
+  "keywords": [
+    "keenetic",
+    "api",
+    "rest"
+  ],
+  "dependencies": {
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "eslint": "^8.14.0",
+    "nodemon": "^2.0.6"
+  },
+  "author": "bondrogeen@gmail.com",
+  "license": "MIT"
+}
